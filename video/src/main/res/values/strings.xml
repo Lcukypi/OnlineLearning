@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyVideo</string>
+    <string name="ctn_play"><u>继续播放</u></string>
+</resources>

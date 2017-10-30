@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.github.barteksc.sample">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application>
+        <activity
+            android:name=".PdfImageActivity">
+        </activity>
+        <activity android:name=".pdf.PDFViewActivity">
+        </activity>
+        <activity android:name=".image.ImageActivity">
+        </activity>
+    </application>
+
+</manifest>

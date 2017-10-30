@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.barteksc.sample.test" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="25" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.github.barteksc.sample.test"
+        android:targetPackage="com.github.barteksc.sample.test" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+
+        <activity android:name="com.github.barteksc.sample.PdfImageActivity" >
+        </activity>
+        <activity android:name="com.github.barteksc.sample.pdf.PDFViewActivity" >
+        </activity>
+        <activity android:name="com.github.barteksc.sample.image.ImageActivity" >
+        </activity>
+    </application>
+
+</manifest>

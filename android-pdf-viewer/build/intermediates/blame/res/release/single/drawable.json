@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_left.xml",
+        "source": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_bottom.xml",
+        "source": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_top.xml",
+        "source": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_left.xml",
+        "source": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_bottom.xml",
+        "source": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_right.xml",
+        "source": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_right.xml",
+        "source": "E:\\AndroidCode\\OnlineLearningFinal\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\build\\intermediates\\res\\merged\\release\\drawable\\default_scroll_handle_top.xml",
+        "source": "C:\\Users\\huangzhameng\\Desktop\\OnlineLearning3 (1)\\OnlineLearning3\\android-pdf-viewer\\src\\main\\res\\drawable\\default_scroll_handle_top.xml"
+    }
+]

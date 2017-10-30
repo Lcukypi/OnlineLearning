@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AndroidCode\\Answer-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "E:\\AndroidCode\\Answer-master1\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\dell\\Desktop\\answer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\dell\\Desktop\\answer\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

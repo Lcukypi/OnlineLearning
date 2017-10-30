@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义基础的LinearLayout布局 -->
+<!-- 定义基础的LinearLayout布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	tools:context=".dicovery.DiscoveryActivity"
+	>
+	<include
+		android:id="@+id/title"
+		layout="@layout/layout_title_bar"/>
+	<View
+		android:background="#cbc6c6"
+		android:layout_width="match_parent"
+		android:layout_height="1dp">
+	</View>
+	<android.support.design.widget.TabLayout
+		android:id="@+id/tabLayout"
+		app:tabSelectedTextColor="@android:color/holo_orange_light"
+		app:tabTextColor="@color/colorPrimary"
+		app:tabIndicatorColor="@android:color/holo_orange_light"
+		app:tabTextAppearance="@android:style/TextAppearance.Holo.Inverse"
+		app:tabIndicatorHeight="4dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:tabMode="scrollable"/>
+	<View
+		android:background="#a29999"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"/>
+	<android.support.v4.view.ViewPager
+		android:id="@+id/viewPager"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:background="#ffffff"
+		/>
+
+
+</LinearLayout>

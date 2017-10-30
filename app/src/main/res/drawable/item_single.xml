@@ -1,0 +1,87 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<inset xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:insetLeft="1.0px"-->
+    <!--android:insetRight="1.0px" >-->
+
+    <!--<selector>-->
+        <!--<item android:state_pressed="true">-->
+
+            <!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:shape="rectangle" >-->
+                <!--&lt;!&ndash;分別對應上面左圆角的半径，上面右圆角的半径，下面左圆角的半径，下面右圆角的半径&ndash;&gt;-->
+                <!--<corners-->
+                    <!--android:topLeftRadius="7dp"-->
+                    <!--android:topRightRadius="7dp"-->
+                    <!--android:bottomLeftRadius="7dp"-->
+                    <!--android:bottomRightRadius="7dp"/>-->
+                <!--&lt;!&ndash;设置渐变&ndash;&gt;-->
+                <!--<gradient android:startColor="#FFFFFF"-->
+                    <!--android:endColor="#D1D1D1"-->
+                    <!--android:angle="270"/>-->
+                <!--<stroke-->
+                    <!--android:width="1dp"-->
+                    <!--android:color="#8F8F8F" />-->
+            <!--</shape>-->
+        <!--</item>-->
+    <!--</selector>-->
+
+<!--</inset>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <gradient
+                android:angle="270.0"
+                android:endColor="@color/end_selected"
+                android:startColor="@color/start_selected" />
+
+            <corners
+                android:bottomLeftRadius="10.0dip"
+                android:bottomRightRadius="10.0dip"
+                android:radius="2.0dip"
+                android:topLeftRadius="10.0dip"
+                android:topRightRadius="10.0dip" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#eededede" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:angle="270.0"
+                android:endColor="@color/end_selected"
+                android:startColor="@color/start_selected" />
+
+            <corners
+                android:bottomLeftRadius="10.0dip"
+                android:bottomRightRadius="10.0dip"
+                android:radius="2.0dip"
+                android:topLeftRadius="10.0dip"
+                android:topRightRadius="10.0dip" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#eededede" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="270.0"
+                android:endColor="@color/end_default"
+                android:startColor="@color/start_default" />
+
+            <corners
+                android:bottomLeftRadius="10.0dip"
+                android:bottomRightRadius="10.0dip"
+                android:radius="2.0dip"
+                android:topLeftRadius="10.0dip"
+                android:topRightRadius="10.0dip" />
+
+            <stroke
+                android:width="1dp"
+                android:color="#eededede" />
+        </shape>
+    </item>
+</selector>

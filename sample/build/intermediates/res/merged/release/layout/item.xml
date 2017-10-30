@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:text="google.pdf"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2017年8月15日"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_toRightOf="@id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="227KB"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:id="@+id/tv_page"
+                android:layout_toRightOf="@id/tv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="8"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/gray"/>
+            <TextView
+                android:id="@+id/fileURL"
+                android:layout_toRightOf="@id/tv_page"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:textSize="10sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/gray"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

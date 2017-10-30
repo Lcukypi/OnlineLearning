@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\release\\drawable\\bg_dialog.xml",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable\\bg_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\release\\drawable\\answer_choose_bg.xml",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable\\answer_choose_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\release\\drawable\\btn_bg_gray.xml",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable\\btn_bg_gray.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\release\\drawable\\darkblue_btn_bg.xml",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable\\darkblue_btn_bg.xml"
+    },
+    {
+        "merged": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\build\\intermediates\\res\\merged\\release\\drawable\\back.xml",
+        "source": "E:\\AndroidCode\\OnlineLearning3\\answerquestion\\src\\main\\res\\drawable\\back.xml"
+    }
+]
